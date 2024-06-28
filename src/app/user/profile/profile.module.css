@@ -1,0 +1,9 @@
+.Main{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.822)), url("../../../../public/background_images/profile_Image.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.homePage{
+    background: rgb(26, 0, 41);
+  }
+  

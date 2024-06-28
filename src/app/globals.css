@@ -2,32 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+}
+input{
+    color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#insideMainDiv{
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+.section_2{
+    background: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.212),black), url("../../public/background_images/section_2_background_2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.projectToolDetailsUl li{
+    @apply flex flex-col items-center justify-center rounded-md   p-5  backdrop:filter backdrop-blur-3xl 
+}
+.projectToolDetailsUl li h1{
+    @apply text-base mt-5 max-sm:mt-3
+}
+.projectToolDetailsUl{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+}
+@media (min-width:600px) {
+    .projectToolDetailsUl{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
+}
+@media (min-width:768px) {
+    .projectToolDetailsUl{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media (min-width:991px) {
+    .projectToolDetailsUl{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media (min-width:1024px) {
+    .projectToolDetailsUl{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+@media (min-height:1080px) {
+    html,body{
+       @apply text-xl 
+    }
 }

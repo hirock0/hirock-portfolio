@@ -1,0 +1,9 @@
+
+
+#manPicTop{
+   filter: drop-shadow(0 0 10px white);
+}
+.SuccessesUl li{
+   @apply  p-5 rounded-md bg-cyan-600
+
+}

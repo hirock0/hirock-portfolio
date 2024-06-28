@@ -1,0 +1,25 @@
+#Nav{
+
+}
+#NavUl a li{
+    @apply cursor-pointer
+
+}
+#NavUl a li:hover{
+    text-decoration:2px blue underline;
+    text-underline-offset: 100%;
+}
+#NavUl a li:active{
+    color: yellow;
+}
+@media (min-height:768px) {
+    #Nav{
+       
+    }
+}
+@media (min-height:1080px) {
+    #NavUl{
+        @apply text-sm
+    
+    }
+}

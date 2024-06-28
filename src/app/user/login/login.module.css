@@ -1,0 +1,20 @@
+#main{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.863)), url("../../../../public/background_images/sign_up_2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+@media (min-height:1080px) {
+    #insideMain_DIv{
+        @apply w-4/5 h-full p-10
+    }
+    #insideMain_DIv input{
+        @apply h-14
+    }
+    #insideMain_DIv button{
+        @apply h-14
+    }
+    #createNewbutton{
+        @apply h-14
+    }
+}
+

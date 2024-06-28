@@ -1,0 +1,20 @@
+#SideNavBar{
+    transition: all .5s;
+}
+#SidenavUl a li{
+    background: -webkit-linear-gradient( #3500f7, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: dashed rgb(195, 0, 255) 1px ;
+    @apply  w-full p-1 cursor-pointer 
+}
+#SidenavUl a li:hover{
+    background: -webkit-linear-gradient( #ffffff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#SidenavUl a li:active{
+    background: -webkit-linear-gradient( #ffffff, #008f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

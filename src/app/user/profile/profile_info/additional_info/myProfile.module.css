@@ -1,0 +1,4 @@
+
+.middleData div div input{ 
+    @apply rounded-md h-10 text-white pl-2 outline-none
+}

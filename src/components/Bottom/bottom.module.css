@@ -1,0 +1,32 @@
+#main {
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../../public/background_images/home_page_3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#bottomBottom {
+}
+@media not all and (min-width: 768px) {
+  #bottomBottom {
+    
+    @apply pb-20 pt-20
+  }
+}
+@media (min-width: 768px) {
+  #bottomBottom {
+  
+
+  }
+}
+@media (min-height: 1080px) {
+  #main {
+   
+  }
+  #followusText {
+   
+  }
+  #ContactIcon li a img {
+ 
+  }
+}

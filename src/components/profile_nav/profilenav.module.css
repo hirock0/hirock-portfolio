@@ -1,0 +1,18 @@
+.ProfileDetailsDiv{
+    transition: all 0.5s;
+}
+.insideProfileDetailsDiv{
+    background: linear-gradient(45deg,rgba(123, 0, 134, 0.767),rgb(0, 0, 68));
+}
+.insideProfileDetailsDiv::-webkit-scrollbar{
+    display: none;
+}
+.ProfileUl a li{
+    border-bottom: dashed rgb(195, 0, 255) 2px;
+}
+.ProfileUl a li:hover{
+    color: rgb(0, 225, 255);
+}
+.ProfileUl a li:active{
+    color: rgb(0, 159, 180);
+}

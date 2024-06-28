@@ -1,0 +1,25 @@
+#main {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.397),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.459)
+    ),
+    url("../../../../../public/background_images/neonNetImage_3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+#main p {
+  @apply max-sm:text-sm;
+}
+#main h1 {
+  @apply text-center underline underline-offset-4;
+}
+#main div div h1 {
+  @apply text-green-400;
+}
+#main ul {
+  @apply list-inside  list-disc flex flex-col gap-2;
+}
+.insideMain {
+  @apply backdrop:filter backdrop-blur-3xl pr-5 pl-5  pt-5 pb-10;
+}
