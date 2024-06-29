@@ -36,7 +36,6 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    return NextResponse.json({ message: "user logged in", success: true });
   } catch (error: any) {
     return NextResponse.json({ message: "user not logged in", success: false });
   }
